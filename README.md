@@ -1,4 +1,7 @@
+
 # ETL_Project
+
+NOTE: View Resource folder for the CSV data files
 
 Team Members: EJ, Niral, Bill
 
