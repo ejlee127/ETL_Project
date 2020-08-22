@@ -1,0 +1,73 @@
+# Modify this code to update the DB schema diagram.
+# To reset the sample schema, replace everything with
+# two dots ('..' - without quotes).
+
+Total_Energy_Consumed
+-
+Rank
+State PK varchar(30)	
+Total_Energy_Consumed(million Btu)
+
+
+Total_Energy_Production
+-
+Rank
+State PK varchar(30
+Total_Energy_Production(trillion Btu)
+
+Coal_Production as ol
+----
+Rank
+State PK varchar(30)
+Total_Coal_Production(thousand short_tons)
+
+Crudeoil_Production as os
+----
+Rank
+State PK varchar(30)
+Total_Oil_Production(thousand barrels_per_day)
+
+NaturalGas_Production
+--
+Rank
+State PK varchar(30)
+Total_Gas_Production(million cu_ft)
+
+
+Electricity_Production
+--
+Rank
+State PK varchar(30)
+Total_Electricity_Production(thousasnd MWh)
+
+
+Primary_Energy_Estimates
+--
+State PK varchar(30)
+Coal
+Natural_Gas
+Crude_Oil
+Nuclear_Electricity
+
+Renewal_Energy_Estimates
+--
+State PK varchar(30)
+Biofuels
+Wood_Waste
+Other
+
+Renewal_Energy_Potential
+--
+State PK varchar(30)
+Biofuels
+Wood_Waste
+Other
+
+
+State_Abb
+--
+State PK
+Code
+
+
+
