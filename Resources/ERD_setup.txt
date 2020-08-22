@@ -19,29 +19,29 @@ Coal_Production as ol
 ----
 Rank
 State PK varchar(30)
-Total_Coal_Production(thousand short_tons)
+Total_Coal(thousand short_tons)
 
 Crudeoil_Production as os
 ----
 Rank
 State PK varchar(30)
-Total_Oil_Production(thousand barrels_per_day)
+Total_Oil(thousand barrels_per_day)
 
 NaturalGas_Production
 --
 Rank
 State PK varchar(30)
-Total_Gas_Production(million cu_ft)
+Total_Gas(million cu_ft)
 
 
 Electricity_Production
 --
 Rank
 State PK varchar(30)
-Total_Electricity_Production(thousasnd MWh)
+Total_Electricity(thousasnd MWh)
 
 
-Primary_Energy_Estimates
+Fossil_Fuel_Estimates
 --
 State PK varchar(30)
 Coal
@@ -68,6 +68,3 @@ State_Abb
 --
 State PK
 Code
-
-
-
