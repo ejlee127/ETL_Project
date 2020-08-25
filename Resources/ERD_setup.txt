@@ -66,5 +66,6 @@ Other
 
 State_Abb
 --
-State PK
+State_ID int PK
+State
 Code
