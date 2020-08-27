@@ -24,15 +24,15 @@ CREATE TABLE "NaturalGas_Production" (
 
 --DROP TABLE "Energy_Production_Estimate";
 CREATE TABLE "Energy_Production_Estimate" (
-    "State_id" int   NOT NULL,
-    "Fossil_Fuels" int   NOT NULL,
-    "Natural_Gas" int   NOT NULL,
-    "Crude_Oil" int   NOT NULL,
-    "Nuclear_Electricity" int   NOT NULL,
-    "Biofuels" int   NOT NULL,
-    "Wood_Waste" int   NOT NULL,
-    "Other" int   NOT NULL,
-	"Total" int,
+    "State_id" int ,
+    "Fossil_Fuels" varchar NOT NULL,
+    "Natural_Gas" varchar NOT NULL,
+    "Crude_Oil" varchar NOT NULL,
+    "Nuclear_Electricity" varchar NOT NULL,
+    "Biofuels" varchar NOT NULL,
+    "Wood_Waste" varchar NOT NULL,
+    "Other" varchar NOT NULL,
+	"Total" varchar NOT NULL,
     CONSTRAINT "pk_Energy_Production_Estimate" PRIMARY KEY (
         "State_id"
      )
@@ -41,17 +41,17 @@ CREATE TABLE "Energy_Production_Estimate" (
 --DROP TABLE "Renewable_Energy_Potential";
 CREATE TABLE "Renewable_Energy_Potential" (
     "State_id" int   NOT NULL,
-    "urbanUtilityScalePV_GWh" int   NOT NULL,
-    "ruralUtilityScalePV_GWh" int   NOT NULL,
-    "rooftopPV_GWh" int   NOT NULL,
-    "CSP_GWh" int   NOT NULL,
-    "onshoreWind_GWh" int   NOT NULL,
-    "offshoreWind_GWh" int   NOT NULL,
-    "biopowerSolid_GWh" int   NOT NULL,
-    "biopowerGaseous_GWh" int   NOT NULL,
-    "geothermalHydrothermal_GWh" int   NOT NULL,
-    "EGSGeothermal_GWh" int   NOT NULL,
-    "hydropower_GWh" int   NOT NULL,
+    "urbanUtilityScalePV_GWh" int  NOT NULL,
+    "ruralUtilityScalePV_GWh" int  NOT NULL,
+    "rooftopPV_GWh" int  NOT NULL,
+    "CSP_GWh" int  NOT NULL,
+    "onshoreWind_GWh" int  NOT NULL,
+    "offshoreWind_GWh" int  NOT NULL,
+    "biopowerSolid_GWh" int  NOT NULL,
+    "biopowerGaseous_GWh" int  NOT NULL,
+    "geothermalHydrothermal_GWh" int  NOT NULL,
+    "EGSGeothermal_GWh" int  NOT NULL,
+    "hydropower_GWh" int  NOT NULL,
     CONSTRAINT "pk_Renewable_Energy_Potential" PRIMARY KEY (
         "State_id"
      )
@@ -69,9 +69,9 @@ CREATE TABLE "Electricity_Production" (
 
 --DROP TABLE "Coal_Production";
 CREATE TABLE "Coal_Production" (
-    "State_id" int   NOT NULL,
-    "Rank" int   NOT NULL,
-    "Total_Coal_thousand_short_tons" int   NOT NULL,
+    "State_id" varchar(20),
+    "Rank" int NOT NULL,
+    "Total_Coal_thousand_short_tons" varchar(20) NOT NULL,
     CONSTRAINT "pk_Coal_Production" PRIMARY KEY (
         "State_id"
      )
@@ -81,7 +81,7 @@ CREATE TABLE "Coal_Production" (
 CREATE TABLE "Crudeoil_Production" (
     "State_id" int   NOT NULL,
     "Rank" int   NOT NULL,
-    "Total_Oil_thousand_barrels_per_day" int   NOT NULL,
+    "Total_Oil_thousand_barrels_per_day" varchar(20)   NOT NULL,
     CONSTRAINT "pk_Crudeoil_Production" PRIMARY KEY (
         "State_id"
      )
