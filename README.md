@@ -3,7 +3,7 @@
 
 NOTE: View Resource folder for the CSV data files
 
-Team Members: EJ, Niral, Bill, Tashanee
+Team Members: Eunjeong Lee, Niral Patel, Bill Pezzullo, Tashanee Williams
 
 Theme: US Engergy Production & consumption
 
