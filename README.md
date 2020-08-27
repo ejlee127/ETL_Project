@@ -3,7 +3,7 @@
 
 NOTE: View Resource folder for the CSV data files
 
-Team Members: EJ, Niral, Bill
+Team Members: EJ, Niral, Bill, Tashanee
 
 Theme: US Engergy Production & consumption
 
