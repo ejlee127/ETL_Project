@@ -8,15 +8,14 @@ Team Members: Eunjeong Lee, Niral Patel, Bill Pezzullo, Tashanee Williams
 Theme: US Engergy Production & consumption
 
 Summary of the data:
-  * Annyal engery comsumption values
-  * Energy consumption/production by Coal, Curde Oil, Natural Gas, & Electricity
+  * Annual energy consumption values
+  * Energy consumption/production by Coal, Crude Oil, Natural Gas, & Electricity
   * Potential for renwalble engergy per state
   
-
 Type of database to load Data:
   * CSV data
   * SQL database
-    * Using state as primary key
+    * Adding State_id as primary key
   
 Data Sources:
   * CSV data sources from following sources
