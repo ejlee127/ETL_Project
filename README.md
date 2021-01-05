@@ -1,5 +1,5 @@
 
-# ETL_Project
+# ETL Energy Data
 
 Extract, transform and load energy data 'US Engergy Production & consumption' using python sqlalchemy and PostgreSQL
 
