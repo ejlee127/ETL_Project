@@ -1,11 +1,13 @@
 
 # ETL_Project
 
-NOTE: View Resource folder for the CSV data files
+Extract, transform and load energy data 'US Engergy Production & consumption' using python sqlalchemy and PostgreSQL
 
-Team Members: Eunjeong Lee, Niral Patel, Bill Pezzullo, Tashanee Williams
+Data sources: 
 
-Theme: US Engergy Production & consumption
+  CSV files from following sources
+    * https://www.eia.gov/
+    * https://data.world/
 
 Summary of the data:
   * Annual energy consumption values
@@ -16,9 +18,8 @@ Type of database to load Data:
   * CSV data
   * SQL database
     * Adding State_id as primary key
-  
-Data Sources:
-  * CSV data sources from following sources
-    * https://www.eia.gov/
-    * https://data.world/
+  ![img](ERD.png)
+
+Team Members: Eunjeong Lee, Niral Patel, Bill Pezzullo, Tashanee Williams
+
 
