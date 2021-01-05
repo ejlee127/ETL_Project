@@ -3,9 +3,7 @@
 
 Extract, transform and load energy data 'US Engergy Production & consumption' using python sqlalchemy and PostgreSQL
 
-Data sources: 
-
-  CSV files from following sources
+Data sources: CSV files from following sources
   
     * https://www.eia.gov/
     
